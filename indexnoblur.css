@@ -1,0 +1,121 @@
+body{
+    background-color: #808088;
+    color: #0f141e;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+@media (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .spon{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.fotka{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0, 25) ;
+}
+
+.box{
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 400px;
+}
+.hey{
+    margin-top: 5%;
+    text-align: center;
+    float: inline-start;
+}
+.infoenter{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    text-align: center;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0, 25);
+}
+a{
+    text-decoration: none;
+    color: #0f141e;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.forgot:active{
+    color: blue;
+}
+input{
+    width: 95%;
+    padding: 2%;
+    margin-bottom: 4%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    outline: none;
+}
+.butt{
+    width: 100%;
+}
+.enter{
+    width: 100%;
+    padding: 2%;
+    background: rgb(16, 54, 223);
+    color: white;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.enter:hover{
+    background-color: blue;
+}
+.newacc{
+    width: 70%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    outline: none;
+    background-color:rgb(52, 212, 52);
+    color: white;
+    font-size: 17px;
+}
+.newacc:hover{
+    background-color: rgb(3, 211, 3);
+}
+.spon{
+    padding: 25px 0 1% 5%;
+    width: 100%;
+    margin-top: 50px;
+    background-color: burlywood;
+    display: fixed;
+    position:relative;
+    left: 0;
+    bottom: 0;
+}
+h4{
+    width: 100%;
+    padding: 0;
+}
